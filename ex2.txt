@@ -1,0 +1,45 @@
+    1  ls
+    2  mkdir week1
+    3  ls
+    4  cd usr
+    5  cd bin
+    6  
+    7  cd ..
+    8  ls | grep gcc /bin | sort -r
+    9  ls | grep gcc bin | sort -r
+   10  ls | grep gcc bin | sort -r
+   11  ls | grep gcc | sort -r | > ../week1/week1.txt
+   12  cd ..
+   13  cd week1
+   14  ls
+   15  < week1.txt
+   16  head < week1.txt
+   17  gedit week1.txt
+   18  head -n < week1.txt
+   19  head -n 3 < week1.txt
+   20  ls | grep gcc | sort -r > ../week1/week1.txt
+   21  cd ..
+   22  cd urs
+   23  cd usr
+   24  ls
+   25  cd bin
+   26  ls | grep gcc | sort -r > ../week1/week1.txt
+   27  ls | grep gcc | sort -r > ../../week1/week1.txt
+   28  cd ..
+   29  cd ..
+   30  cd week1
+   31  ls
+   32  cd week1.txt 
+   33  < week1.txt 
+   34  head -n 3 < week1.txt 
+   35  history
+   36  ls
+   37  cd ..
+   38  ls
+   39  cd f
+   40  cd ..
+   41  mv week1 /f/
+   42  cd f
+   43  ls
+   44  ls
+   45  history > ex2.txt
