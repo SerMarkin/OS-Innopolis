@@ -1,0 +1,9 @@
+Have:
+  virtual addresses = 16bit
+  pages = 8KB = 2^13bit
+Solution:
+  maximum virtual addresses -> mva
+  Entries = (mva / sizeof(page))
+  mva = 2^(virtual addresses) = 2^16
+  Entries = 2^16/2^13 = 2^3 = 8
+Answer: 8
