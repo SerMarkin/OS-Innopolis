@@ -1,0 +1,3 @@
+physical memory faster, because virtual memory store on hard drive and physical store on RAM.
+But virtual memory(use mapping and ect) increase perfomance of applications if RAM is filled.
+  
