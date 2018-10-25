@@ -1,0 +1,4 @@
+$link ../week01/file.txt _ex2.txt
+$ find ../week01/file.txt -inum 3442182
+../week01/file.txt
+$find ../week01/file.txt -inum 3442182 -exec rm {} \;
