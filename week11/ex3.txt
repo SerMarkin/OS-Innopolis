@@ -1,0 +1,3 @@
+First example will print Hello\n twice, because the child will have the same buffer as the parent.
+
+Second example will print Hello\n once, because the child will have empty buffer  and print only \n 
