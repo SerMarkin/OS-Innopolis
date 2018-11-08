@@ -1,0 +1,19 @@
+$ time ./copy ~/dr/h1.txt /dr/h2.txt
+0.02s user 0.17s system 67% cpu 0.282 total
+
+BUF_SIZE=2048
+
+$ time ./copy ~/dr/h1.txt /dr/h2.txt  
+0.01s user 0.09s system 60% cpu 0.167 total
+
+BUF_SIZE=128
+
+$ time ./copy ~/dr/h1.txt /dr/h2.txt  
+0.18s user 0.80s system 92% cpu 1.157 total
+
+BUF_SIZE=2048; SYNC
+$ time ./copy ~/dr/h1.txt /dr/h2.txt  
+0.02s user 0.50s system 57% cpu 0.908 total
+
+ > size -> increase performance
+ sunc -> increase wait time 
