@@ -1,0 +1,5 @@
+recovery, prevention and
+avoidance.
+recovery useful, when we know a lot of information about each proccess
+prevention useful , when we use hierarchy or some else algorithms in code
+avoidance use when we cannot use recovery and prevention (but if we can at start aviod deadlock, of course we must avoid it)
